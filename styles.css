@@ -1,0 +1,32 @@
+body {
+    background-color: purple;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    background-color: purple;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#output {
+    margin-top: 20px;
+}
+
+#startBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#startBtn:disabled {
+    background-color: #aaaaaa;
+}
